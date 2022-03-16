@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    background-color: aliceblue;
+}
+.title{
+    margin-top: 50px;
+}
+.title .logo{
+    font-size: 30px;
+    padding-left: 5%;
+    font-style: italic;
+    background-color: peru;
+    padding: 10px;
+    color: black;
+    margin-left: 30px;
+    border-radius: 10px;
+}
+.title ul{
+    display: flex;
+    justify-content: right;
+    margin-right: 120px;
+    margin-top: -30px;
+    font-weight: bold;
+}
+.title li{
+    padding-left: 40px;
+    list-style-type: none;
+}
+.about{
+    margin-top: 350px;
+    padding: 50px;
+    width: 25%;
+}
+.about h3,span{
+    font-size: 50px;
+}
+
+.about span{
+    color: peru;
+}
+.about button{
+    padding: 9px;
+    background-color: black;
+    color: white;
+    border-radius: 05px;
+}
+.imga img{
+    float: right;
+    height: 650px;
+    margin-top: -400px;
+    margin-right: 450px;
+}
+.imga .a1{
+    position: relative;
+}
